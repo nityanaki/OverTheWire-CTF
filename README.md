@@ -1,2 +1,2 @@
 ## Over the Wire CTF Writeups
-- Natas
+- [Natas](https://github.com/nityanaki/OverTheWire-CTF/tree/main/natas)
