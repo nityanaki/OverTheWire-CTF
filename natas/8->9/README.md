@@ -5,6 +5,7 @@
 Problem: Using the source code, find an input secret.
 
 Notice in the source code:
+
         <?
 
         $encodedSecret = "3d3d516343746d4d6d6c315669563362";
@@ -22,4 +23,13 @@ Notice in the source code:
         }
         ?>
         
-Convert 
+Work backwards from encodeSecret: convert hex2bin, reverse string, decode base64 in PHP.
+
+        <?php
+           $hex = base64_decode(strrev(hex2bin("3d3d516343746d4d6d6c315669563362")));
+           echo $hex;
+        ?>
+
+The secret is oubWYf2kBq.
+
+The password for natas9 is W0mMhUcRRnG8dcghE4qvk3JA9lGt8nDl.
