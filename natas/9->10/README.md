@@ -18,7 +18,9 @@ if($key != "") {
 
 It looks like $key is the input in "grep -i $key dictionary.txt". If we use a semicolon somewhere in our input, we can divide the line into >1 command.
 
-For example, using the input
+For example, using the input '; echo "hi";' will exec the command
 ````console
-; echo "hi";
+grep -i ; echo "hi"; dictionary.txt
 ````
+causing the Output to say "hi".
+
