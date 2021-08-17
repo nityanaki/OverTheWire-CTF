@@ -20,7 +20,7 @@ It looks like $key is the input in "grep -i $key dictionary.txt". If we use a se
 
 For example, using the input '; echo "hi";' will exec the command
 ````console
-grep -i ; echo "hi"; dictionary.txt
+user@site: ~$ grep -i ; echo "hi"; dictionary.txt
 ````
 causing the Output to say "hi".
 
