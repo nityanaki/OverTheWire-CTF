@@ -5,7 +5,7 @@ The code is different from the previous level in that the characters '/[;|&]/' a
 
 However, grep allows searching for items from more than one input file. We can modify
 ````console
-user@user: ~$ grep -i <word> dictionary.txt
+user: ~$ grep -i <word> dictionary.txt
 ````
 to be
 ````console
