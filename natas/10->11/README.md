@@ -5,11 +5,11 @@ The code is different from the previous level in that the characters '/[;|&]/' a
 
 However, grep allows searching for items from more than one input file. We can modify
 ````console
-grep -i <word> dictionary.txt
+: ~$ grep -i <word> dictionary.txt
 ````
 to be
 ````console
-user@user: ~$ grep -i <word> <file> dictionary.txt
+: ~$ grep -i <word> <file> dictionary.txt
 ````
 
 Search for characters that may be in the file ../../../../etc/natas_webpass/natas11. For example, try the input "a ../../../../etc/natas_webpass/natas11" to get the command
