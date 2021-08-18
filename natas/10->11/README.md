@@ -9,7 +9,7 @@ grep -i <word> dictionary.txt
 ````
 to be
 ````console
-~$ grep -i <word> <file> dictionary.txt
+user@user: ~$ grep -i <word> <file> dictionary.txt
 ````
 
 Search for characters that may be in the file ../../../../etc/natas_webpass/natas11. For example, try the input "a ../../../../etc/natas_webpass/natas11" to get the command
